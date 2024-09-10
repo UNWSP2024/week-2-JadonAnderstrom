@@ -17,8 +17,10 @@ person5 = int(input())
 result = (person1 + person2 + person3 + person4 + person5)
 
     # Average the ages
-average = (result/5)
+average = float((result / 5))
     # Print the results
-print('The average age of your age group equals ' (average))
+print('The average age of your age group equals', average, 'years old')
 # Line which calls the above function.
+
+# Jadon Anderstrom, 9/10/24, "Average Age".
 average_age()
