@@ -21,3 +21,5 @@ print('\n')
 print('Thank you for shopping at the Anderstrom Bakery, see you next time!')
 
 calculate_total_purchase()
+
+    #Jadon Anderstrom, 9/12/24, "Calculate Total".
