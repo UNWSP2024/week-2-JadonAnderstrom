@@ -10,7 +10,7 @@ def calculate_total_purchase():
     item5 = float(input('Insert dollar amount of item 5: $'))
     
     # then displays the subtotal of the sale, 
-    pt1 = (item1 + item2 + item3 +item4 + item5)
+    pt1 = (item1 + item2 + item3 + item4 + item5)
     print('Subtotal: $','${:,.2f}'.format(pt1))
     # the amount of sales tax, and the total.  
     # Assume the sales tax is 7 percent.
