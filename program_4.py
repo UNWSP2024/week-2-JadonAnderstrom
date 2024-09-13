@@ -9,7 +9,7 @@ def temp_conversion(celsius):
     # Calculate the Fahrenheit equivalent.
     fahrenheit = 0.0
     ######################
-    # WRITE YOUR CODE HERE
+    fahrenheit = (9/5) * celsius + 32
     ######################    
 
 
@@ -27,3 +27,5 @@ if __name__ == '__main__':
     fahrenheit = temp_conversion(celsius)
     # Display the Fahrenheit temperature.
     print ("That is equal to", format(fahrenheit, '.2f'), "degrees Fahrenheit.")
+
+#Jadon Anderstrom, 9/13/2024, "Celsius To Fahrenheit".
